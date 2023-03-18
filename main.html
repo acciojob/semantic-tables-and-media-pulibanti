@@ -1,48 +1,44 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Semantic Table and List of Medias</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <table>
+    <thead>
+      <tr>
+        <th>Roll Number</th>
+        <th>Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>001</td>
+        <td>John Doe</td>
+      </tr>
+      <tr>
+        <td>002</td>
+        <td>Jane Smith</td>
+      </tr>
+      <tr>
+        <td>003</td>
+        <td>Bob Johnson</td>
+      </tr>
+    </tbody>
+  </table>
 
-
-    <table>
-      <thead>
-        <th>Roll number</th>
-        <th>Names</th>
-      </thead>
-      <tbody>
-        <tr>
-          <td>101</td>
-          <td>chaitu</td>
-        </tr>
-        <tr>
-          <td>102</td>
-          <td>deepthi</td>
-        </tr>
-        <tr>
-          <td>103</td>
-          <td>harsha</td>
-        </tr>
-      </tbody>
-    </table>
-    <h1>List of medias</h1>
-    <ol>
-      <li><img src="https://picsum.photos/id/123/200/300" alt="images1" /></li>
-      <li>
-        <video
-          src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-          controls
-        ></video>
-      </li>
-      <li><audio src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" controls></audio></li>
-    </ol>
-  </body>
-
+  <h3>List of Medias</h3>
+  <ol>
+    <li><img src="https://picsum.photos/id/123/200/300" alt="Random Image"></li>
+    <li>
+      <video controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+      </video>
+    </li>
+    <li>
+      <audio src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" controls></audio>
+    </li>
+  </ol>
+</body>
 </html>
